@@ -136,6 +136,10 @@ form label, form legend {
     transform: scale(1.2);
 }
 
+h2 {
+    font-size: 20px;
+    margin: 20px;
+}
 table {
     margin: 20px 40px;
 }
