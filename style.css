@@ -269,3 +269,22 @@ td, th {
     width: 560px;
     margin: 2em auto;
 }
+
+/* Media Query - Design responsivo */
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
