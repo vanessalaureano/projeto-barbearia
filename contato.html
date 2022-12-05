@@ -14,13 +14,13 @@
             <img src="imagens/logo.png" alt="Logo da Barbearia Alura">
             <nav>
                 <ul type="none">
-                    <a href="#">
+                    <a href="index.html">
                         <li>Home</li>
                     </a>
-                    <a href="#">
+                    <a href="produtos.html">
                         <li>Produtos</li>
                     </a>
-                    <a href="#">
+                    <a href="contato.html">
                         <li>Contato</li>
                     </a>
                 </ul>
@@ -31,17 +31,16 @@
         <div>
             <form action="#" method="get">
 
-                <label for="inome" id="nome">Nome completo:</label>
-                <input type="text" name="inome" id="nome" class="input-padrao" required placeholder="nome e sobrenome">
-
-                <label for="iemail">E-mail:</label>
-                <input type="email" name="email" id="iemail" class="input-padrao" required placeholder="seuemail@dominio.com">
-
-                <label for="itelefone">Telefone:</label>
-                <input type="tel" name="telefone" id="itelefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
-
-                <label for="imensagem">Mensagem:</label>
-                <textarea name="mensagem" id="imensagem" cols="60" rows="10" class="input-padrao" required placeholder="digite a mensagem aqui"></textarea>
+                <fieldset class="questionario">
+                    <label for="inome" id="nome">Nome completo:</label>
+                    <input type="text" name="inome" id="nome" class="input-padrao" required placeholder="nome e sobrenome">
+                    <label for="iemail">E-mail:</label>
+                    <input type="email" name="email" id="iemail" class="input-padrao" required placeholder="seuemail@dominio.com">
+                    <label for="itelefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="itelefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+                    <label for="imensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="imensagem" cols="60" rows="10" class="input-padrao" required placeholder="digite a mensagem aqui"></textarea>
+                </fieldset>
 
                 <fieldset class="checkbox">
                     <legend>Como prefere nosso contato?</legend>
@@ -70,7 +69,6 @@
                 <div class="input-padrao">
                     <input type="submit" value="Enviar formulário" class="enviar">
                 </div>
-
             </form>
         </div>
 

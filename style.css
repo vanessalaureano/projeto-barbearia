@@ -96,9 +96,7 @@ footer {
     margin: 20px;
 }
 
-main {
-
-}
+/* CSS DA PÁGINA DE CONTATO */
 
 form {
     margin: 40px 0;
@@ -108,6 +106,10 @@ form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+}
+
+.questionario {
+    margin-left: 20px;
 }
 
 .input-padrao {
